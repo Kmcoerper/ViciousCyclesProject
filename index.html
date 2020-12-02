@@ -4,42 +4,81 @@
     <head>
         <title>Vicious Cycles Home page</title>
         <meta charset="utf-8">
-        <style>
-            body { 
-                background-color: #E7FBFB;
-            }
+        <meta name="viewport" content="initial-scale=1.0">
+        <link class="desktop" rel="Stylesheet" type="text/css" href="Cycles.css">
+        <link rel="stylesheet" href="styleprint.css" media="print">
+        <img src="Vicious-Cycle-Logo.png" alt="Vicious Cycles logo" width="400px">
 
+        <style>
+            
             header {
-                font-size: 4em;
+                
+                background-image: url('backgroundimg.jpg') ;
+                background-size: cover;
+                text-align: center;
                 align: center;
-                color: #010B5B;
+                color: white;
+                width: 85%;
+                margin: 0 auto;
+                padding: 190px;
+                Font-weight: bold;
+                border: 2em solid #2F4F4F;
+                
+                     }
+
+            body {
+                background-image: linear-gradient(white, #2F4F4F);
             }
+            
+            
+                
+                
         </style>
-    
+
+   
     </head>
     <body>
+    
         
-        <nav>
-            <p>Products 
-            About us 
-            Contact 
-            Gallery 
-            Routes</p>
+        <nav class="main-nav">
+            <ul>
+                <li><a class="Products" href="Products.html">Products</a></li>
+                <li><a class="Aboutus" href="Aboutus.html">About Us</a></li>
+                <li><a class="Contact" href="Contact.html">Contact </a></li>
+                <li><a class="Gallery" href="Gallery.html">Gallery</a></li>
+                <li><a class="Routes" href="routes.html">Routes</a></li>
+            </ul>
         </nav>
         
         <header>
-        
-            <h1>Vicious cycles</h1>
+            <p style="font-size: 30px; color: black"> Riding is a lifestyle, and we want to help you live your life.</p>
+            <h1 style="font-size: 100px; text-shadow: 2px 2px black;">Vicious cycles</h1>
+
             
         </header>
 
-        <img id="snow" src="snow-3066167_1920.jpg" width="75%">
+        <div id="events">
+        <p style="font-size: 2em; ">Check out different <a href="https://www.bikeride.com/events-location/north-carolina/">biking events</a> going on in North Carolina!</p></div>
+        </div>
         <div id="main">
+            <img src="bicycle-1834265_1920.jpg" alt="bikeride" width="40%">
+            <img src="workout-713658_1920.jpg" alt="black and white biking workout" width="40%">
 
         </div>
         
+     
+        
+        
+        
+        
         <footer>
-
+            <figure>
+                <img src="instagram-logo-png-transparent-background.png" alt="instagram logo" style="height: 5%; width: 5%; padding: 2px; margin: 2px;">
+                <img src="facebook-21.png" alt="facebook logo" style="height: 8%; width: 8%;">
+            </figure>
+            <p style="width: 100%; color: white; font-size: 25px; text-decoration: none;">Singing up for our <a href="form.html"> Email listing</a> would give you access to special discounts and new product releases!<br>
+                You can cancel your subscription anytime.
+            </p>
         </footer>
     </body>
 </html>
